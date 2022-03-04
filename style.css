@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@600&family=Sora:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 13px;
+    padding: 0 15px;
+}
+.wrapper{ 
+    max-width: 1440px; 
+    width: 100%; 
+    margin: 0 auto; 
+}
+.flex{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+#cabecalho{
+    display: flex;
+    background-color: #5A2D82 ;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+#logo{
+    width: 135px;
+}
+.links{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+#secao_banner{
+    background-color: #ECEEF0;
+    padding: 64px 0;
+}
+.textos_banner{
+    width: 50%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.textos_banner > h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800px;
+    font-size: 45px;
+    color: #EA028B;
+    padding-bottom: 20px;
+}
+footer{
+    text-align: center;
+    background-color: #5A2D82;
+    color: #fff;
+    padding: 10px;
+}
+/* .conteudo{
+    background-color: #29A9E0;
+
+} */

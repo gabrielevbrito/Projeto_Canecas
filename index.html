@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canecas Personalizadas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div id="cabecalho">
+            <img id="logo" src="./img/Logo.webp" alt="Logo escrita AmoCanecas.com">
+            <nav class="links">
+                <a href="#">Home</a>
+                <a href="#">Personalização</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="secao_banner">
+            <div class="wrapper">
+                <div class="conteudo_banner flex">
+                    <div class="textos_banner">
+                        <h2>Canecas personalizadas do seu jeito!</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus consectetur omnis adipisci
+                            consequatur ipsum exercitationem totam quasi provident delectus.</p>
+                    </div>
+                    <img src="./img/Banner.webp" alt="canecas">
+                </div>
+            </div>
+        </section>
+        <section id="personalizacao">
+            <div class="wrapper flex">
+                <div class="conteudo wrapper flex">
+                    <div id="img">
+                        <img id="imgTroca" src="./img/Caneca lisa.png" alt="Canecas personalizadas">
+                    </div>
+                    <div id="botoes">
+                        <label>Selecione o seu super-herói favorito:</label> 
+                            <button onclick="alterarImg('./img/Caneca Flash.webp')">Flash</button>
+                            <button onclick="alterarImg('./img/Caneca Lanterna Verde.webp')">Lanterna Verde</button>
+                            <button onclick="alterarImg('./img/Caneca Pantera Negra.webp')">Pantera Negra</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Todos direitos resevado</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
